@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta charset="UTF-8">
+<head>
+<link rel="stylesheet" href="{{ url_for('static', filename='stylesheet.css') }}">
+</head>
+<body>
+<div class="clearfix">
+	<div class="column menu" id="sidebar">
+		<ul id="sidebar-links">
+		<li id="sidebar-header">MetaRegress</li>
+		<li><a href="/">Home</a></li>
+		<li><a href="/portfolio">Portfolio</a></li>
+		<li><a href="/cool-games">Cool Games</a></li>
+		<li>Cool Pictures</li>		
+		</ul>
+	</div>
+		
+	<div class="column content">
+		{{page_content | safe}}
+	</div>
+</div>
+</body>
+</html>
