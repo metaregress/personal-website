@@ -2,6 +2,6 @@
 I'm a programmer by trade, but outside of coding I'm interested in
 videogames, movies, books, and anime.
 
-I'm still getting the hang of web dev/design and also trying to 
-figure out what exactly I want to put on here, so please bear with me 
-while I figure both of those out.
+This website is both a nice thing to have in a shifting digital landscape and also a portfolio to show off my programming skills, 
+either by showing past products I've worked on or hosting entirely new projects. Even the website itself is a project; I host it
+on DigitalOcean and do all my own upkeep and maintenance.
