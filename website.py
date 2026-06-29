@@ -1,7 +1,6 @@
 from flask import Flask
 from flask import render_template
 from mistune import html
-from werkzeug.middleware.proxy_fix import ProxyFix
 
 app = Flask(__name__)
 

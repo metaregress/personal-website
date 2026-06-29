@@ -14,12 +14,17 @@
 }
 
 body {
-	background: lightsteelblue;
+	background: #212529;
 	font-size: 100%;
 }
 p {
 	font-family: Arial, sans-serif;
 	font-size: 1.1rem;
+	color: lightgrey;
+}
+
+h1, h2, h3 {
+	color: grey;
 }
 
 .menu {
@@ -43,7 +48,7 @@ p {
 }
 
 #sidebar-header {
-	color: black;
+	color: grey;
 	font-size: 1.3rem;
 	border-bottom: 2px solid;
 	text-align: center;
@@ -63,6 +68,7 @@ p {
 	margin: 0px;
 	text-align: center;
 	border: 2px solid;
+	color: lightgrey;
 }
 
 li a {
@@ -71,6 +77,10 @@ li a {
 }
 
 li a:hover {
-	background-color: steelblue;
+	background-color: black;
 	color: white;
+}
+
+li a:visited {
+	color: grey;
 }

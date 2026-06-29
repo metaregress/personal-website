@@ -1,4 +1,3 @@
-### Hello, and welcome to my website!
 I'm a programmer by trade, but outside of coding I'm interested in
 videogames, movies, books, and anime.
 
